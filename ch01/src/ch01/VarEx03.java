@@ -8,7 +8,7 @@ public class VarEx03 {
 	 * final이 붙은면 앞으로 MAX_SPEED는
 	 * 프로그램이 종료될 때까지 10으로 고정
 	 */
-	
+
 	public static void main(String[] arg) {
 		System.out.println(MAX_SPEED); //상수 MAX_SPPED 값을 출력
 		
