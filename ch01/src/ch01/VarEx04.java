@@ -26,5 +26,20 @@ public class VarEx04 {
 				 */
 				byte b = 65;                         //OK. byte(65)타입에 저장 간으한 범위의 int 타입 리터럴
 			short s = 0x1234;               //OK. short(0x1234)타입에 저장 가능한 범위의 int타입 리터럴
+			
+			System.out.println(octNum);
+			System.out.println(hexNum);
+			System.out.println(binNum);
+			
+			System.out.println(big);
+			System.out.println(hex);
+			System.out.println(pi);
+			System.out.println(rate);
+			
+			System.out.println(i);
+			System.out.println(l);
+			System.out.println(d);
+			System.out.println(b);
+			System.out.println(s);
 	}
 }
