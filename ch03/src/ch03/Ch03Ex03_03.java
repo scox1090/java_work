@@ -4,12 +4,17 @@ import java.util.Scanner;
 
 public class Ch03Ex03_03 {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
+	String[] numbers = scanner.nextLine().split(" ");
+	int num1 = Integer.parseInt(numbers[0]);
+	int num2 = Integer.parseInt(numbers[1]);
+	int num3 = Integer.parseInt(numbers[2]);
+	
+//	3과목 정수를 입력받아 평균을 구하기
+	double avg = (num1 + num2 + num3)/3.0;
+	
+//	결과 출력
+	System.out.printf("%.1f", avg);
 
-		int num1 = scanner.nextInt();	 	//과목 점수를 입력 받음
-		int num2 = scanner.nextInt();		//과목 점수를 입력 받음
-		int num3 = scanner.nextInt();		//과목 점수를 입력 받음
-		
-		System.out.printf("%.1f",(float)(num1 + num2 + num3) / 3); // 평균을 계산함
 	}
 }
