@@ -14,8 +14,7 @@ public class FlowEx29 {
 				if (tmp%10%3==0 && tmp%10!=0)
 					System.out.print("짝");
 				// tmp /= 10은 tmp = tmp / 10과 동일
-			} while((tmp/=10)!=0);
-			
+			} while((tmp/=10)!=0);		
 			System.out.println();
 		}
 	}

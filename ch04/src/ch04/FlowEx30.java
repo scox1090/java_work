@@ -12,7 +12,6 @@ public class FlowEx30 {
 				break;
 			++i;
 			sum += i;
-
 		}
 		System.out.println("i=" + i);
 		System.out.println("sum =" + sum);
