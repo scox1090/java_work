@@ -8,7 +8,6 @@ public class Exercise4_11 {
 				for (int x = x2; x <= x3; x++) {
 					System.out.printf("%d*%d=%d%6s", x, y, x * y, ' ');
 					for (;;) {
-						
 						if (x == x3) {
 							System.out.println();
 							break;
@@ -16,7 +15,7 @@ public class Exercise4_11 {
 							break;
 						}
 					}
-					if(x==9) {
+					if (x == 9) {
 						System.out.println();
 						break;
 					}
