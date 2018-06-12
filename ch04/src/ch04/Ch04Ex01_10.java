@@ -14,5 +14,11 @@ public class Ch04Ex01_10 {
 			System.out.println(num1 - num2);
 		else
 			System.out.println(num2 - num1);
+		
+//		번외 : 메소드를 사용하는 방법
+//		Math.abs() : 절대값을 리턴하는 메소드
+		/*
+		System.out.println(Math.abs(num1 - num2));
+		*/
 	}
 }

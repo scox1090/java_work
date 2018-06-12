@@ -5,23 +5,19 @@ import java.util.Scanner;
 public class Ch04Ex02_04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String[] input = sc.nextLine().split(" ");
-//		정수 계속 입력(끝에 100이상의 숫자를 쓰면 멈춤)
-		int num = 0, sum = 0, n = 0;
-		float avg = 0;
-		for (;;) {
-			if (num >= 100) {
+		int count = 0;
+		int sum = 0;
+		int num = 1;
+		for(;;) {
+			if(num>=100) {
 				break;
-			} else {		
-				num = Integer.parseInt(input[n]);
-				sum += num;
-				avg += num;
-				++n;
+			}else {
+			count++;
+			num = sc.nextInt();
+			sum += num;
 			}
 		}
-		
 		System.out.println(sum);
-		System.out.printf("%.1f",avg/n);
+		System.out.println(Math.round(((double)sum/count)*10)/10f);
 	}
-	
 }

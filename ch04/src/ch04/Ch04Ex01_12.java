@@ -9,7 +9,7 @@ public class Ch04Ex01_12 {
 		int num1 = Integer.parseInt(input[0]);
 		// 년도 입력
 
-		if (num1 % 400 == 0 || num1 % 4 == 0 && num1 % 100 != 0)
+		if (num1 % 400 == 0 || (num1 % 4 == 0 && num1 % 100 != 0))
 			System.out.println("leap year");
 		else
 			System.out.println("common year");
