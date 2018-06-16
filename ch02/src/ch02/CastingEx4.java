@@ -2,19 +2,19 @@ package ch02;
 
 public class CastingEx4 {
 	public static void main(String[] args) {
-		int i = 91234567; 				// 8ìžë¦¬ì˜ 10ì§„ìˆ˜
-		float f = (float) i; 				// intë¥¼ floatë¡œ í˜•ë³€í™˜
-		int i2 = (int) f; 					// floatë¥¼ ë‹¤ì‹œ intë¡œ í˜•ë³€í™˜
+		int i = 91234567; 				// 8ÀÚ¸®ÀÇ 10Áø¼ö
+		float f = (float) i; 				// int¸¦ float·Î Çüº¯È¯
+		int i2 = (int) f; 					// float¸¦ ´Ù½Ã int·Î Çüº¯È¯
 
-		double d = (double) i;		 // intë¥¼ doubleë¡œ í˜•ë³€í™˜
-		int i3 = (int) d; 				// doubleì„ ë‹¤ì‹œ intë¡œ í˜•ë³€í™˜
+		double d = (double) i;		 // int¸¦ double·Î Çüº¯È¯
+		int i3 = (int) d; 				// doubleÀ» ´Ù½Ã int·Î Çüº¯È¯
 
 		double f2 = 1.666f;
 		int i4 = (int) f2;
 		System.out.printf("i=%d\n", i);
-		System.out.printf("f=%f i3=%d\n", f, i2); 		 // intì™€ int->float ->intë¹„êµ
-		System.out.printf("d=%f i3=%d\n", d, i3);		 // intì™€ int-> double->intë¹„êµ
-		System.out.printf("(int)%f=%d\n", f2, i4);		 // floatì™€ float ->intë¹„êµ
+		System.out.printf("f=%f i3=%d\n", f, i2); 		 // int¿Í int->float ->intºñ±³
+		System.out.printf("d=%f i3=%d\n", d, i3);		 // int¿Í int-> double->intºñ±³
+		System.out.printf("(int)%f=%d\n", f2, i4);		 // float¿Í float ->intºñ±³
 
 	}
 }

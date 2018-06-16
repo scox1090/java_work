@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Ch04Ex01_03 {
 	public static void main(String[] args) {
-//		ë‚˜ì´ë¥¼ ìž…ë ¥í•œë‹¤.
-		Scanner sc = new Scanner(System.in); //ë‚˜ì´ ìž…ë ¥
+//		³ªÀÌ¸¦ ÀÔ·ÂÇÑ´Ù.
+		Scanner sc = new Scanner(System.in); //³ªÀÌ ÀÔ·Â
 		int age = sc.nextInt();
 		
-//		ë‚˜ì´ê°€ 20ì„¸ ì´ìƒì´ë©´ 'adult'ë¼ê³  ì¶œë ¥í•˜ê³ , ì•„ë‹ˆë©´ 20ì„¸ ì´ìƒì´ ë˜ë ¤ë©´ ëª‡ ë…„ ë‚¨ì•˜ëŠ”ì§€ ì¶œë ¥
+//		³ªÀÌ°¡ 20¼¼ ÀÌ»óÀÌ¸é 'adult'¶ó°í Ãâ·ÂÇÏ°í, ¾Æ´Ï¸é 20¼¼ ÀÌ»óÀÌ µÇ·Á¸é ¸î ³â ³²¾Ò´ÂÁö Ãâ·Â
 		if(age>=20)
 			System.out.println("adult");
 		else

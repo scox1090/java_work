@@ -6,13 +6,13 @@ public class Ch04Ex02_03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num = 1;
-//		0ì´ ìž…ë ¥ë  ë•Œê¹Œì§€ ê³„ì† ì‹¤í–‰ë¨
+//		0ÀÌ ÀÔ·ÂµÉ ¶§±îÁö °è¼Ó ½ÇÇàµÊ
 		for (;;) {
 			if (num != 0) {
-//				ì •ìˆ˜ë¥¼ ìž…ë ¥ë°›ëŠ”ë‹¤.
-				System.out.print("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. (0:ì¢…ë£Œ)>");
+//				Á¤¼ö¸¦ ÀÔ·Â¹Þ´Â´Ù.
+				System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. (0:Á¾·á)>");
 				num = sc.nextInt();
-//				ì •ìˆ˜ê°€ ì–‘ìˆ˜ì¸ì§€ ìŒìˆ˜ì¸ì§€ ì¶œë ¥
+//				Á¤¼ö°¡ ¾ç¼öÀÎÁö À½¼öÀÎÁö Ãâ·Â
 				if (num > 0) {
 					System.out.println("positive integer");
 				} else if(num < 0 ){

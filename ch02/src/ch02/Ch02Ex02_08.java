@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Ch02Ex02_08 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå
 		Scanner scanner = new Scanner(System.in);
 
-		// Scannerë¥¼ ì´ìš©í•˜ì—¬ ì‹¤ìˆ˜ 2ê°œì™€ í•œê°œì˜ ë¬¸ìë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// Scanner¸¦ ÀÌ¿ëÇÏ¿© ½Ç¼ö 2°³¿Í ÇÑ°³ÀÇ ¹®ÀÚ¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 		String input3 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ì‹¤ìˆ˜ 2ê°œì™€ ë¬¸ìë¥¼ ê°ê° ì‹¤ìˆ˜(double)í˜•ìœ¼ë¡œ ë³€ê²½(ë¬¸ìëŠ” ë³€ê²½ í•„ìš” ì—†ìŒ)
+		// ÀÔ·Â¹ŞÀº ½Ç¼ö 2°³¿Í ¹®ÀÚ¸¦ °¢°¢ ½Ç¼ö(double)ÇüÀ¸·Î º¯°æ(¹®ÀÚ´Â º¯°æ ÇÊ¿ä ¾øÀ½)
 		float num1 = Float.parseFloat(input1);
 		float num2 = Float.parseFloat(input2);
 
-		// printf() ì´ìš©í•˜ì—¬ ì‹¤ìˆ˜ 2ê°œì™€ ë¬¸ì ì¶œë ¥
+		// printf() ÀÌ¿ëÇÏ¿© ½Ç¼ö 2°³¿Í ¹®ÀÚ Ãâ·Â
 		System.out.printf("%.2f\n", num1);
 		System.out.printf("%.2f\n", num2);
 		System.out.print(input3);

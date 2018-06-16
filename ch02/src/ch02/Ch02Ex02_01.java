@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class Ch02Ex02_01 {
 	public static void main(String[] args) {
-		// ì…ë ¥ë°›ê¸° ìœ„í•´ scannerê°ì²´ ìƒì„±, System.inì€ í‚¤ë³´ë“œ
+		// ÀÔ·Â¹Ş±â À§ÇØ scanner°´Ã¼ »ı¼º, System.inÀº Å°º¸µå
 		Scanner scanner = new Scanner(System.in);
 
-		// scannerë¥¼ í†µí•´ ì…ë ¥ë°›ê¸° (3ë²ˆ)
+		// scanner¸¦ ÅëÇØ ÀÔ·Â¹Ş±â (3¹ø)
 		String strkor = scanner.nextLine();
 		String strmat = scanner.nextLine();
 		String stravg = scanner.nextLine();
 
-		// ë¬¸ìì—´ë¡œ ë°›ì€ ì„±ì ë“¤ì„ ì •ìˆ˜í˜•ìœ¼ë¡œ ë³€í™˜
+		// ¹®ÀÚ¿­·Î ¹ŞÀº ¼ºÀûµéÀ» Á¤¼öÇüÀ¸·Î º¯È¯
 		int kor = Integer.parseInt(strkor);
 		int mat = Integer.parseInt(strmat);
 		int eng = Integer.parseInt(stravg);
 
-		// í•©ê³„ì™€ í‰ê·  êµ¬í•˜ê¸°
+		// ÇÕ°è¿Í Æò±Õ ±¸ÇÏ±â
 		int sum = kor + mat + eng;
 		int avg = sum / 3;
 
-		// printf()ë¥¼ ì´ìš©í•˜ì—¬ ì¶œë ¥
+		// printf()¸¦ ÀÌ¿ëÇÏ¿© Ãâ·Â
 		System.out.printf("kor %d%n", kor);
 		System.out.printf("mat %d%n", mat);
 		System.out.printf("eng %d%n", eng);

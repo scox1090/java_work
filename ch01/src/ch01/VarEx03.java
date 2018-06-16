@@ -1,16 +1,16 @@
 package ch01;
 
 public class VarEx03 {
-	final static int MAX_SPEED = 10; // MAX_SPEEDëŠ” ìƒìˆ˜, 10ì€ ë¦¬í„°ëŸ´
-	final static int WIDTH = 10; // ì‚¼ê°í˜•ì˜ ë°‘ë³€
-	final static int HEIGHT  = 2; // ì‚¼ê°í˜•ì˜ ë†’ì´
+	final static int MAX_SPEED = 10; // MAX_SPEED´Â »ó¼ö, 10Àº ¸®ÅÍ·²
+	final static int WIDTH = 10; // »ï°¢ÇüÀÇ ¹Øº¯
+	final static int HEIGHT  = 2; // »ï°¢ÇüÀÇ ³ôÀÌ
 	/*
-	 * finalì´ ë¶™ì€ë©´ ì•ìœ¼ë¡œ MAX_SPEEDëŠ”
-	 * í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œë  ë•Œê¹Œì§€ 10ìœ¼ë¡œ ê³ ì •
+	 * finalÀÌ ºÙÀº¸é ¾ÕÀ¸·Î MAX_SPEED´Â
+	 *  finalÀÌ ºÙÀº¸é ¾ÕÀ¸·Î MAX_SPEED´Â
 	 */
 
 	public static void main(String[] arg) {
-		System.out.println(MAX_SPEED); //ìƒìˆ˜ MAX_SPPED ê°’ì„ ì¶œë ¥
+		System.out.println(MAX_SPEED); //»ó¼ö MAX_SPPED °ªÀ» Ãâ·Â
 		
 		int TriangleArea = WIDTH * HEIGHT  / 2;
 		System.out.println(TriangleArea);

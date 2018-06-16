@@ -4,9 +4,9 @@ public class Exercise3_1 {
 	public static void main(String[] args) {
 		int x = 2;
 		int y = 5;
-		char c = 'A'; // 'A'ì˜ ë¬¸ìì½”ë“œëŠ” 65
-		System.out.println(1 + x << 33); // int(32bit)ì´ë¯€ë¡œ 33ì¹¸ ì´ë™ì€ 1ì¹¸ ì´ë™ -> 000000000000000000000110
-		System.out.println(y >= 5 || x < 0 && x > 2); // '&&'ê°€ '||'ë³´ë‹¤ ë¨¼ì € í’€ì´ëœë‹¤.
+		char c = 'A'; // 'A'ÀÇ ¹®ÀÚÄÚµå´Â 65
+		System.out.println(1 + x << 33); // int(32bit)ÀÌ¹Ç·Î 33Ä­ ÀÌµ¿Àº 1Ä­ ÀÌµ¿ -> 000000000000000000000110
+		System.out.println(y >= 5 || x < 0 && x > 2); // '&&'°¡ '||'º¸´Ù ¸ÕÀú Ç®ÀÌµÈ´Ù.
 		System.out.println(y += 10 - x++);
 		System.out.println(x += 2);
 		System.out.println(!('A' <= c && c <= 'Z'));

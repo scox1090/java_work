@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class Ch02Ex02_04 {
 	public static void main(String[] args) {
-		// 2.3ë²ˆ ì‘ìš©
+		// 2.3¹ø ÀÀ¿ë
 
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// ì •ìˆ˜ 2ê°œë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// Á¤¼ö 2°³¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String strN1 = scanner.nextLine();
 		String strN2 = scanner.nextLine();
 		String strN3 = scanner.nextLine();
 		String strN4 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ì •ìˆ˜ 2ê°œë¥¼ ì •ìˆ˜í˜•ìœ¼ë¡œ ë³€ê²½
+		// ÀÔ·Â¹ŞÀº Á¤¼ö 2°³¸¦ Á¤¼öÇüÀ¸·Î º¯°æ
 		int num1 = Integer.parseInt(strN1);
 		int num2 = Integer.parseInt(strN2);
 		int num3 = Integer.parseInt(strN3);
 		int num4 = Integer.parseInt(strN4);
 
-		// ì •ìˆ˜í˜•ìœ¼ë¡œ ë³€ê²½í•œ ë‘ ë³€ìˆ˜ num1ê³¼ num2ë¥¼ ì´ìš©í•˜ì—¬ ê³„ì‚°
+		// Á¤¼öÇüÀ¸·Î º¯°æÇÑ µÎ º¯¼ö num1°ú num2¸¦ ÀÌ¿ëÇÏ¿© °è»ê
 
 		int result1 = num1 - num2;
 		int result2 = num3 - num4;

@@ -8,9 +8,9 @@ public static void main(String[] args) {
 	System.out.printf("%d + %d = d%n", a, b,  a+b);
 	System.out.printf("%d + %d = d%n", a, b,  a-b);
 	System.out.printf("%d + %d = d%n", a, b,  a*b);
-	System.out.printf("%d + %d = d%n", a, b,  a/b);			// ì •ìˆ˜ ë‚˜ëˆ„ê¸° ì •ìˆ˜ëŠ” ì •ìˆ˜
+	System.out.printf("%d + %d = d%n", a, b,  a/b);			// Á¤¼ö ³ª´©±â Á¤¼ö´Â Á¤¼ö
 	
-	//ì •ìˆ˜ ë‚˜ëˆ„ê¸° ì‹¤ìˆ˜ì˜ ê²°ê³¼ëŠ” ì‹¤ìˆ˜ë‹¤.
+	//Á¤¼ö ³ª´©±â ½Ç¼öÀÇ °á°ú´Â ½Ç¼ö´Ù.
 	System.out.printf("%d + %f = %f%n", a, (float)b,  a / (float)b);
 }
 }

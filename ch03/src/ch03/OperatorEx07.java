@@ -8,9 +8,9 @@ public static void main(String[] args) {
 	System.out.println(c);
 	
 	/*
-	 * ì˜ˆì œ 6ë²ˆê³¼ ê°™ì€ ì´ì•¼ê¸°.
-	 * ê³±ì…ˆë„ ë§ˆì°¬ê°€ì§€ë¡œ ìžë°”ì—ì„œ ì •ìˆ˜ì˜ ê¸°ë³¸í˜•ì´ intí˜•ìœ¼ë¡œ ë³€ê²½ í›„ ê³±ì…ˆì„ ìˆ˜í–‰í•œë‹¤.
-	 * ê²°ë¡ ì€ ë˜ë„ë¡ intë¥¼ ì¨ë¼ (@o@))
+	 * ¿¹Á¦ 6¹ø°ú °°Àº ÀÌ¾ß±â.
+	 * °ö¼Àµµ ¸¶Âù°¡Áö·Î ÀÚ¹Ù¿¡¼­ Á¤¼öÀÇ ±âº»ÇüÀÌ intÇüÀ¸·Î º¯°æ ÈÄ °ö¼ÀÀ» ¼öÇàÇÑ´Ù.
+	 * °á·ÐÀº µÇµµ·Ï int¸¦ ½á¶ó (@o@))
 	 */
 }
 }

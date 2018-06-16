@@ -7,7 +7,7 @@ public class Ch04Ex01_11 {
 		Scanner sc = new Scanner(System.in);
 		String[] input = sc.nextLine().split(" ");
 		int num1 = Integer.parseInt(input[0]);
-//		ì •ìˆ˜ 1ê°œ ìž…ë ¥
+//		Á¤¼ö 1°³ ÀÔ·Â
 		
 		if(num1 == 0)
 			System.out.println("zero");

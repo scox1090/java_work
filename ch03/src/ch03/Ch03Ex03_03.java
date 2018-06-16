@@ -10,10 +10,10 @@ public class Ch03Ex03_03 {
 	int num2 = Integer.parseInt(numbers[1]);
 	int num3 = Integer.parseInt(numbers[2]);
 	
-//	3ê³¼ëª© ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ í‰ê· ì„ êµ¬í•˜ê¸°
+//	3°ú¸ñ Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ Æò±ÕÀ» ±¸ÇÏ±â
 	double avg = (num1 + num2 + num3)/3.0;
 	
-//	ê²°ê³¼ ì¶œë ¥
+//	°á°ú Ãâ·Â
 	System.out.printf("%.1f", avg);
 
 	}

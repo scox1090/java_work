@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Ch04Ex01_05 {
 	public static void main(String[] args) {
-//		ì‹¤ìˆ˜ ë‘ê°œë¥¼ ìž…ë ¥ë°›ëŠ”ë‹¤.
-		Scanner sc = new Scanner(System.in); //ì‹¤ìˆ˜ 2ê°œ ìž…ë ¥
+//		½Ç¼ö µÎ°³¸¦ ÀÔ·Â¹Þ´Â´Ù.
+		Scanner sc = new Scanner(System.in); //½Ç¼ö 2°³ ÀÔ·Â
 		String[] input = sc.nextLine().split(" ");
 		Double num1 = Double.parseDouble(input[0]);
 		Double num2 = Double.parseDouble(input[1]);
 	
-//		ìž…ë ¥ë°›ì€ ì‹¤ìˆ˜ë“¤ì´ ì¡°ê±´ì— ì¶©ì¡±í•  ë•Œê¹Œì§€ ë¹„êµí•˜ì—¬ ë“±ê¸‰ì„ ë§¤ê¸´ë‹¤.
+//		ÀÔ·Â¹ÞÀº ½Ç¼öµéÀÌ Á¶°Ç¿¡ ÃæÁ·ÇÒ ¶§±îÁö ºñ±³ÇÏ¿© µî±ÞÀ» ¸Å±ä´Ù.
 		if(num1>=4.0 && num2>=4.0)
 			System.out.println("A");
 		else if(num1>=3.0 && num2>=3.0)

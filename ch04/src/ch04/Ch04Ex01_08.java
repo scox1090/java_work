@@ -6,7 +6,7 @@ public class Ch04Ex01_08 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		float score = sc.nextFloat();
-		// 0 ì´ìƒ 4.5ì´í•˜ì˜ í‰ì  ì…ë ¥
+		// 0 ÀÌ»ó 4.5ÀÌÇÏÀÇ ÆòÁ¡ ÀÔ·Â
 
 		switch ((int) score) {
 		case 4:

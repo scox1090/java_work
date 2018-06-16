@@ -6,7 +6,7 @@ public class Ch04Ex02_13 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String[] input = sc.nextLine().split(" ");
-//		í–‰ê³¼ ì—´ ìž…ë ¥
+//		Çà°ú ¿­ ÀÔ·Â
 		int x = Integer.parseInt(input[0]);
 		int y = Integer.parseInt(input[1]);
 		int j = 0;

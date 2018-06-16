@@ -7,7 +7,7 @@ public class Ch04Ex01_13 {
 		Scanner sc = new Scanner(System.in);
 		String[] input = sc.nextLine().split(" ");
 		int num1 = Integer.parseInt(input[0]);
-		// 1~12ì¤‘ í•˜ë‚˜ ì…ë ¥('ì›”'ì„ ì…ë ¥ë°›ìŒ)
+		// 1~12Áß ÇÏ³ª ÀÔ·Â('¿ù'À» ÀÔ·Â¹ŞÀ½)
 		
 		switch(num1) {
 		case 1 : 	case 3 :		 case 5 :
@@ -26,7 +26,7 @@ public class Ch04Ex01_13 {
 		}
 	}
 }
-/*ifë¡œ ê°„ë‹¨í•˜ê²Œ ë§Œë“œëŠ” ë²•
+/*if·Î °£´ÜÇÏ°Ô ¸¸µå´Â ¹ı
  * if(1 <= month && month <= 12){
  * 		boolean isOdd = month %2 !=0;
  * 		boolean is9OrLess = month <=9;

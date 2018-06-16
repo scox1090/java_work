@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Ch02Ex02_13 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// ì •ìˆ˜ ì„¸ ê°œë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// Á¤¼ö ¼¼ °³¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 		String input3 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ì •ìˆ˜ë¥¼ ì •ìˆ˜(int)í˜•ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº Á¤¼ö¸¦ Á¤¼ö(int)ÇüÀ¸·Î º¯°æÇÏ±â
 		int num1 = Integer.parseInt(input1);
 		int num2 = Integer.parseInt(input2);
 		int num3 = Integer.parseInt(input3);
 
-		// ì…ë ¥ë°›ì€ ì •ìˆ˜ë¥¼ ì •ìˆ˜(int)í˜•ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº Á¤¼ö¸¦ Á¤¼ö(int)ÇüÀ¸·Î º¯°æÇÏ±â
 		System.out.printf("sum = %d\n", num1 + num2 + num3);
 		System.out.printf("avg = %d", (num1 + num2 + num3) / 3);
 	}

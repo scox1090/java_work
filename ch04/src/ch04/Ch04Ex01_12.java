@@ -7,7 +7,7 @@ public class Ch04Ex01_12 {
 		Scanner sc = new Scanner(System.in);
 		String[] input = sc.nextLine().split(" ");
 		int num1 = Integer.parseInt(input[0]);
-		// 년도 입력
+		// �⵵ �Է�
 
 		if (num1 % 400 == 0 || (num1 % 4 == 0 && num1 % 100 != 0))
 			System.out.println("leap year");

@@ -1,19 +1,18 @@
-
 package ch02;
 
 import java.util.Scanner;
 
 public class Ch02Ex02_07 {
 	public static void main(String[] args) {
-		// Scnner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scnner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
-		// ë¬´ì—‡ì„ ì…ë ¥ë°›ì„ì§€ ì•ˆë‚´í•˜ëŠ” ë¬¸êµ¬ ì¶œë ¥
+		// ¹«¾ùÀ» ÀÔ·Â¹ŞÀ»Áö ¾È³»ÇÏ´Â ¹®±¸ Ãâ·Â
 		System.out.print("heght = ");
 
-		// ì •ìˆ˜ í•˜ë‚˜ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// Á¤¼ö ÇÏ³ª ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String input = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ì •ìˆ ë¥¼ ì •ìˆ˜(int)í˜•ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº Á¤¼ú¸¦ Á¤¼ö(int)ÇüÀ¸·Î º¯°æÇÏ±â
 		int height = Integer.parseInt(input);
 
 		System.out.print("Your height is " + height + "cm.");

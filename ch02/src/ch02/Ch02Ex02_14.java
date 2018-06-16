@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Ch02Ex02_14 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// ì‹¤ìˆ˜ í•˜ë‚˜ë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// ½Ç¼ö ÇÏ³ª¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		System.out.print("yard? ");
 		String input1 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ì‹¤ìˆ˜ë¥¼ ì‹¤ìˆ˜(double)í˜•ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº ½Ç¼ö¸¦ ½Ç¼ö(double)ÇüÀ¸·Î º¯°æÇÏ±â
 		double num1 = Double.parseDouble(input1);
 
-		// ìœ„ ë³€ìˆ˜ë“¤ì„ ì´ìš©í•˜ì—¬ ê³„ì‚° ë° ì¶œë ¥
+		// À§ º¯¼öµéÀ» ÀÌ¿ëÇÏ¿© °è»ê ¹× Ãâ·Â
 		System.out.printf("%.1fyard = %.1fcm", num1, num1 * 91.44);
 	}
 }

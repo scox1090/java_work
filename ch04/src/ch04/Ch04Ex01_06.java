@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Ch04Ex01_06 {
 	public static void main(String[] args) {
-//		ë¬¸ìžì—´ê³¼ ì •ìˆ˜ í•˜ë‚˜ì”© ìž…ë ¥ë°›ëŠ”ë‹¤.
-		Scanner sc = new Scanner(System.in); //ì„±ë³„(M-ë‚¨ìž,F-ì—¬ìž)ê³¼ ë‚˜ì´ ìž…ë ¥
+//		¹®ÀÚ¿­°ú Á¤¼ö ÇÏ³ª¾¿ ÀÔ·Â¹Þ´Â´Ù.
+		Scanner sc = new Scanner(System.in); //¼ºº°(M-³²ÀÚ,F-¿©ÀÚ)°ú ³ªÀÌ ÀÔ·Â
 		String[] input = sc.nextLine().split(" ");
 		
 		char gender = input[0].charAt(0);
 		int age = Integer.parseInt(input[1]);
 
-//		ë‚¨ë…€ êµ¬ë¶„ ë¨¼ì €í•˜ê³  ì„±ì¸ì¸ì§€ ì•„ë‹Œì§€ ë¹„êµí•˜ì—¬ ì¶œë ¥
+//		³²³à ±¸ºÐ ¸ÕÀúÇÏ°í ¼ºÀÎÀÎÁö ¾Æ´ÑÁö ºñ±³ÇÏ¿© Ãâ·Â
 		if (gender == 'M') {
 			if (age >= 18) {
 				System.out.println("MAN");

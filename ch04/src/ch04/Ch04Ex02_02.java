@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Ch04Ex02_02 {
 	public static void main(String[] args) {
-//		1ë¶€í„° ì…ë ¥ë°›ì€ ìˆ«ìì˜ í•©ë§Œí¼ì˜ ìˆ«ìë¥¼ ì¶œë ¥
+//		1ºÎÅÍ ÀÔ·Â¹ŞÀº ¼ıÀÚÀÇ ÇÕ¸¸Å­ÀÇ ¼ıÀÚ¸¦ Ãâ·Â
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		//100ì´í•˜ì˜ ì •ìˆ˜í•˜ë‚˜ ì…ë ¥
+		//100ÀÌÇÏÀÇ Á¤¼öÇÏ³ª ÀÔ·Â
 		int a = 0;
 		int b = 0;
 		while (a <= num) {
@@ -21,7 +21,7 @@ public class Ch04Ex02_02 {
 	}
 }
 /*
- *1ë¶€í„° ì…ë ¥ë°›ì€ ê°’ê¹Œì§€ì˜ í•©
+ *1ºÎÅÍ ÀÔ·Â¹ŞÀº °ª±îÁöÀÇ ÇÕ
  *int sum = 0;
  *int i = 1;
  *
@@ -32,4 +32,3 @@ public class Ch04Ex02_02 {
  *system.out.println(sum)
  *
  */
-

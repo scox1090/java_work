@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Ch04Ex01_01 {
 	public static void main(String[] args) {
-//		ìˆ«ìë¥¼ í•˜ë‚˜ ì…ë ¥ ë°›ëŠ”ë‹¤.
-		Scanner sc = new Scanner(System.in);//ì •ìˆ˜ í•˜ë‚˜ ì…ë ¥
+//		¼ıÀÚ¸¦ ÇÏ³ª ÀÔ·Â ¹Ş´Â´Ù.
+		Scanner sc = new Scanner(System.in);//Á¤¼ö ÇÏ³ª ÀÔ·Â
 		int num = sc.nextInt();
 		System.out.println(num);
 		
-//		ì…ë ¥ë°›ì€ ìˆ«ìê°€ ìŒìˆ˜ì¸ê°€ë¥¼ í™•ì¸í•œë‹¤.
+//		ÀÔ·Â¹ŞÀº ¼ıÀÚ°¡ À½¼öÀÎ°¡¸¦ È®ÀÎÇÑ´Ù.
 		if (num <= 0)
 			System.out.println("minus");
 	}

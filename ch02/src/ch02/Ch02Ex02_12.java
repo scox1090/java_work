@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Ch02Ex02_12 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// ì •ìˆ˜ í•˜ë‚˜ì™€ ì‹¤ìˆ˜ í•˜ë‚˜ë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// Á¤¼ö ÇÏ³ª¿Í ½Ç¼ö ÇÏ³ª¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ê°’ì„ ì •ìˆ˜(int)í˜•, ì‹¤ìˆ˜(double)í˜•ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº °ªÀ» Á¤¼ö(int)Çü, ½Ç¼ö(double)ÇüÀ¸·Î º¯°æÇÏ±â
 		int num1 = Integer.parseInt(input1);
 		double num2 = Double.parseDouble(input2);
 

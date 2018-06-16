@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Ch04Ex01_04 {
 	public static void main(String[] args) {
-//		ëª¸ë¬´ê²Œë¥¼ ì‹¤ìˆ˜ë¡œ ì…ë ¥ë°›ëŠ”ë‹¤.
-		Scanner sc = new Scanner(System.in); //ëª¸ë¬´ê²Œ ì…ë ¥
+//		¸ö¹«°Ô¸¦ ½Ç¼ö·Î ÀÔ·Â¹Ş´Â´Ù.
+		Scanner sc = new Scanner(System.in); //¸ö¹«°Ô ÀÔ·Â
 		String input = sc.nextLine();
 		Double weight = Double.parseDouble(input);
 		
-//		ëª¸ë¬´ê²Œê°€ í•´ë‹¹í•˜ëŠ” ì²´ê¸‰ì„ ì¶œë ¥í•œë‹¤.
+//		¸ö¹«°Ô°¡ ÇØ´çÇÏ´Â Ã¼±ŞÀ» Ãâ·ÂÇÑ´Ù.
 		if(weight<=50.8)
 			System.out.println("Flyweight");
 		else if(weight<=61.23)

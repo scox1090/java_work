@@ -1,14 +1,14 @@
 package ch02;
 
 public class floatEx01 {
-public static void main(String[] args) {
-	float f = 9.12345678901234567890f;  //ì†Œìˆ«ì  20ìë¦¬
-	float f2 = 1.2345678901234567890f; //ì†Œìˆ˜ì  19ìë¦¬
-	double d = 9.12345678901234567890f;  // ì†Œìˆ˜ì  20ìë¦¬
-	
-	System.out.printf("          123456789012345678901234%n");
-	System.out.printf("f    :    %f%n", f);  // ì†Œìˆ˜ì  ì´í•˜ 6ì§¸ìë¦¬ê¹Œì§€ ì¶œë ¥
-	System.out.printf("f2   :  %24.20f%n", f2);
-	System.out.printf("d    :  %24.20f%n", d);
-}
+	public static void main(String[] args) {
+		float f = 9.12345678901234567890f; // ¼Ò¼ıÁ¡ 20ÀÚ¸®
+		float f2 = 1.2345678901234567890f; // ¼Ò¼öÁ¡ 19ÀÚ¸®
+		double d = 9.12345678901234567890f; // ¼Ò¼öÁ¡ 20ÀÚ¸®
+
+		System.out.printf("          123456789012345678901234%n");
+		System.out.printf("f    :    %f%n", f); // ¼Ò¼öÁ¡ ÀÌÇÏ 6Â°ÀÚ¸®±îÁö Ãâ·Â
+		System.out.printf("f2   :  %24.20f%n", f2);
+		System.out.printf("d    :  %24.20f%n", d);
+	}
 }

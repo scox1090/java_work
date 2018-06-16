@@ -1,19 +1,17 @@
 package ch02;
 
 public class CastingEx5 {
-public static void main(String[] args) {
-	float f=1234; //í–¥ë³€í™˜ì˜ ìƒëžµ. float f = (float)1234;ì™€ ê°™ìŒ
-	int b=1000; //ì—ëŸ¬. byteì˜ ë²”ìœ„(-128~127)ë¥¼ ë„˜ëŠ” ê°’ì„ ì €ìž¥.
-	char ch = (char)1000; //ëª…ì‹œì  í˜•ë³€í™˜. ì—ëŸ¬ê°€ ë°œìƒí•˜ì§€ ì•ŠëŠ”ë‹¤.
-	int i=3;
-	double d = 1.0+(double)i;
-	
-	System.out.println(ch);
-	/*ìžë™ í˜•ë³€í™˜ì˜ ê·œì¹™
-	byte -> shor(char) -> int -> long -> float -> double*/
-	
-	
-	
-	
-}
+	public static void main(String[] args) {
+		float f = 1234; // Çâº¯È¯ÀÇ »ý·«. float f = (float)1234;¿Í °°À½
+		int b = 1000; // ¿¡·¯. byteÀÇ ¹üÀ§(-128~127)¸¦ ³Ñ´Â °ªÀ» ÀúÀå.
+		char ch = (char) 1000; // ¸í½ÃÀû Çüº¯È¯. ¿¡·¯°¡ ¹ß»ýÇÏÁö ¾Ê´Â´Ù.
+		int i = 3;
+		double d = 1.0 + (double) i;
+
+		System.out.println(ch);
+		/*
+		 * ÀÚµ¿ Çüº¯È¯ÀÇ ±ÔÄ¢ byte -> shor(char) -> int -> long -> float -> double
+		 */
+
+	}
 }

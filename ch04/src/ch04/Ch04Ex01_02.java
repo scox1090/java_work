@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Ch04Ex01_02 {
 	public static void main(String[] args) {
-//		í‚¤ì™€ ëª¸ë¬´ê²Œë¥¼ ìž…ë ¥ë°›ëŠ”ë‹¤. 
-		Scanner sc = new Scanner(System.in); //í‚¤ ëª¸ë¬´ê²Œ ìž…ë ¥
+//		Å°¿Í ¸ö¹«°Ô¸¦ ÀÔ·Â¹Þ´Â´Ù. 
+		Scanner sc = new Scanner(System.in); //Å° ¸ö¹«°Ô ÀÔ·Â
 		int height = sc.nextInt();
 		int weight = sc.nextInt();
 		
-//		ê³µì‹ì„ ì‚¬ìš©í•˜ì—¬ ë¹„ë§Œë„ë¥¼ ì¸¡ì •í•œë‹¤.
+//		°ø½ÄÀ» »ç¿ëÇÏ¿© ºñ¸¸µµ¸¦ ÃøÁ¤ÇÑ´Ù.
 		int BMI = weight + 100 - height;
 		System.out.println(BMI);
 		
-//		ê³µì‹ì„ í†µí•´ ê³„ì‚°ëœ ê²°ê³¼ê°€ ë¹„ë§Œì— í•´ë‹¹í•˜ëŠ”ì§€ í™•ì¸í•œë‹¤.
+//		°ø½ÄÀ» ÅëÇØ °è»êµÈ °á°ú°¡ ºñ¸¸¿¡ ÇØ´çÇÏ´ÂÁö È®ÀÎÇÑ´Ù.
 		if(BMI >= 0)
 			System.out.println("Obesity");
 	}

@@ -3,8 +3,8 @@ package ch03;
 public class OperatorEx03 {
 	public static void main(String[] args) {
 		int i = 5, j = 5;
-		System.out.println(i++);			// ë³€ìˆ˜  i  ë¨¼ì € ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì— 5 ì¶œë ¥
-		System.out.println(++j);			// 1 ì¦ê°€í•˜ê³  ë³€ìˆ˜ jë¥¼ ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì— 6 ì¶œë ¥
+		System.out.println(i++);			// º¯¼ö  i  ¸ÕÀú »ç¿ëÇÏ±â ¶§¹®¿¡ 5 Ãâ·Â
+		System.out.println(++j);			// 1 Áõ°¡ÇÏ°í º¯¼ö j¸¦ »ç¿ëÇÏ±â ¶§¹®¿¡ 6 Ãâ·Â
 		System.out.println("i = " + i + ", j = " + j);
 	}
 }

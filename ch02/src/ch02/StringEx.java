@@ -3,21 +3,21 @@ package ch02;
 public class StringEx {
 	public static void main(String[] args) {
 		/*
-		 * ë¬¸ìì—´ + any type > ë¬¸ìì—´  + ë¬¸ìì—´ > ë¬¸ìì—´
-		 * any type + ë¬¸ìì—´ > ë¬¸ìì—´ + ë¬¸ìì—´ > ë¬¸ìì—´
+		 * ¹®ÀÚ¿­ + any type > ¹®ÀÚ¿­  + ¹®ÀÚ¿­ > ¹®ÀÚ¿­
+		 * any type + ¹®ÀÚ¿­ > ¹®ÀÚ¿­ + ¹®ÀÚ¿­ > ¹®ÀÚ¿­
 		 */
-		String name = "Ja" + "va"; //ë¬¸ìì—´ + ë¬¸ìì—´ = ë¬¸ìì—´
-		String str = name + 8.0; // ë¬¸ìì—´ + double = ë¬¸ìì—´
+		String name = "Ja" + "va"; //¹®ÀÚ¿­ + ¹®ÀÚ¿­ = ¹®ÀÚ¿­
+		String str = name + 8.0; // ¹®ÀÚ¿­ + double = ¹®ÀÚ¿­
 		
-		// sysout ì…ë ¥ í›„ Ctrl + Space bar
-		System.out.println(name); //ë¬´ë‚®ì—´ "Java" ì¶œë ¥
-		System.out.println(str);  // "Java" + "8.0" (doubleí˜•ì´ ë¬¸ìì—´ë¡œ í˜•ë³€í™˜)
-		System.out.println(7 + " "); //intí˜• 7ì´ ë¬¸ìì—´ë¡œ í˜•ë³€í™˜
-		System.out.println(" " + 7); //intí˜• 7ì´ ë¬¸ìì—´ë¡œ í˜•ë³€í™˜
-		System.out.println(7 + ""); //intí˜• 7ì´ ë¬¸ìì—´ë¡œ í˜•ë³€í™˜
-		System.out.println("" + 7); //intí˜• 7ì´ ë¬¸ìì—´ë¡œ í˜•ë³€í™˜
-		System.out.println(7 + 7 + ""); // 7 + 7 í•œ ê²°ê³¼ì— ë¬¸ìì—´ì„ ë”í•´ì„œ ë¬¸ìì—´ "14"
-		System.out.println("" + 7 + 7); // "" + 7 í•œ ê²°ê³¼(ë¬¸ìì—´ 7)ì— 7ì„ ë”í•´ì„œ ë¬¸ìì—´
+		// sysout ÀÔ·Â ÈÄ Ctrl + Space bar
+		System.out.println(name); //¹«³·¿­ "Java" Ãâ·Â
+		System.out.println(str);  // "Java" + "8.0" (doubleÇüÀÌ ¹®ÀÚ¿­·Î Çüº¯È¯)
+		System.out.println(7 + " "); //intÇü 7ÀÌ ¹®ÀÚ¿­·Î Çüº¯È¯
+		System.out.println(" " + 7); //intÇü 7ÀÌ ¹®ÀÚ¿­·Î Çüº¯È¯
+		System.out.println(7 + ""); //intÇü 7ÀÌ ¹®ÀÚ¿­·Î Çüº¯È¯
+		System.out.println("" + 7); //intÇü 7ÀÌ ¹®ÀÚ¿­·Î Çüº¯È¯
+		System.out.println(7 + 7 + ""); // 7 + 7 ÇÑ °á°ú¿¡ ¹®ÀÚ¿­À» ´õÇØ¼­ ¹®ÀÚ¿­ "14"
+		System.out.println("" + 7 + 7); // "" + 7 ÇÑ °á°ú(¹®ÀÚ¿­ 7)¿¡ 7À» ´õÇØ¼­ ¹®ÀÚ¿­
 		
 	}
 }

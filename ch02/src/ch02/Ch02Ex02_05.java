@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Ch02Ex02_05 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// í•˜ë‚˜ì˜ ì •ìˆ˜ì™€ í•˜ë‚˜ì˜ ì‹¤ìˆ˜ë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// ÇÏ³ªÀÇ Á¤¼ö¿Í ÇÏ³ªÀÇ ½Ç¼ö¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String N1 = scanner.nextLine();
 		String N2 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ë‘ ë¬¸ìì—´ì„ ê°ê° ì •ìˆ˜ì™€ ì‹¤ìˆ˜ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº µÎ ¹®ÀÚ¿­À» °¢°¢ Á¤¼ö¿Í ½Ç¼ö·Î º¯°æÇÏ±â
 		float gr = Float.parseFloat(N2);
 		int w = Integer.parseInt(N1);
 
-		// num1, num2 ë³€ìˆ˜ë¥¼ ì´ìš©í•˜ì—¬ ê³„ì‚° ë° ì¶œë ¥
+		// num1, num2 º¯¼ö¸¦ ÀÌ¿ëÇÏ¿© °è»ê ¹× Ãâ·Â
 		System.out.printf("%d * %.4f = %.4f", w, gr, w * gr);
 	}
 }

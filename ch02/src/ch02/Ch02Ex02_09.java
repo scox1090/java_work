@@ -1,19 +1,18 @@
-
 package ch02;
 
 import java.util.Scanner;
 
 public class Ch02Ex02_09 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// ì‹¤ìˆ˜(float)í˜• 2ê°œ ì‹¤ìˆ˜(double)í˜•
+		// ½Ç¼ö(float)Çü 2°³ ½Ç¼ö(double)Çü
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 		String input3 = scanner.nextLine();
 
-		// ì‹¤ìˆ˜(float)í˜• 2ê°œì™€ ì‹¤ìˆ˜(double)í˜• í•œê°œë¥¼ ê°ê° floatê³¼ doubleí˜•ìœ¼ë¡œ ë³€ê²½
+		// ½Ç¼ö(float)Çü 2°³¿Í ½Ç¼ö(double)Çü ÇÑ°³¸¦ °¢°¢ float°ú doubleÇüÀ¸·Î º¯°æ
 		float num1 = Float.parseFloat(input1);
 		float num2 = Float.parseFloat(input2);
 		double num3 = Float.parseFloat(input3);

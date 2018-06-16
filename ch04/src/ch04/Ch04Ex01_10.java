@@ -8,15 +8,15 @@ public class Ch04Ex01_10 {
 		String[] input = sc.nextLine().split(" ");
 		int num1 = Integer.parseInt(input[0]);
 		int num2 = Integer.parseInt(input[1]);
-//		ì •ìˆ˜ 2ê°œ ì…ë ¥
+//		Á¤¼ö 2°³ ÀÔ·Â
 		
 		if(num1 >= num2)
 			System.out.println(num1 - num2);
 		else
 			System.out.println(num2 - num1);
 		
-//		ë²ˆì™¸ : ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•˜ëŠ” ë°©ë²•
-//		Math.abs() : ì ˆëŒ€ê°’ì„ ë¦¬í„´í•˜ëŠ” ë©”ì†Œë“œ
+//		¹ø¿Ü : ¸Ş¼Òµå¸¦ »ç¿ëÇÏ´Â ¹æ¹ı
+//		Math.abs() : Àı´ë°ªÀ» ¸®ÅÏÇÏ´Â ¸Ş¼Òµå
 		/*
 		System.out.println(Math.abs(num1 - num2));
 		*/

@@ -2,13 +2,13 @@ package ch03;
 
 public class OperatorEx11 {
 	public static void main(String[] args) {
-		// ì±… 102ìª½ í‘œ 3-8 ì°¸ê³ 
-		char a = 'a'; 					// ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ 97
-		char d = 'd'; 					// ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ 100
-		char zero = '0'; 			// ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ 48
-		char two = '2'; 				// ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ 50
+		// Ã¥ 102ÂÊ Ç¥ 3-8 Âü°í
+		char a = 'a'; 					// ¾Æ½ºÅ° ÄÚµå °ª 97
+		char d = 'd'; 					// ¾Æ½ºÅ° ÄÚµå °ª 100
+		char zero = '0'; 			// ¾Æ½ºÅ° ÄÚµå °ª 48
+		char two = '2'; 				// ¾Æ½ºÅ° ÄÚµå °ª 50
 
-		// charí˜•ì€ ì‚¬ì¹™ì—°ì‚° ì‹œ, ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ìœ¼ë¡œ ì—°ì‚°í•œë‹¤.
+		// charÇüÀº »çÄ¢¿¬»ê ½Ã, ¾Æ½ºÅ° ÄÚµå °ªÀ¸·Î ¿¬»êÇÑ´Ù.
 		System.out.printf("\'%c\' - \'%c\' = %d%n", d, a, d - a);					 // 'd' - 'a' = 3
 		System.out.printf("\'%c\' -\'%c\' = %d%n", two, zero, two - zero);
 		System.out.printf("\'%c\' = %d%n", a, (int) a);

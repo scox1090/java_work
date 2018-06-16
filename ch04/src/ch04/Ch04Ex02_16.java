@@ -8,7 +8,12 @@ public class Ch04Ex02_16 {
 		String[] input = sc.nextLine().split(" ");
 		// 행과 열 입력
 		int x = Integer.parseInt(input[0]);
-		char A ='A';
+		
+		if(x > 6) {
+			System.out.println("INPUT ERROR!");
+			return;
+		}
+		/*char A ='A';
 		int n = 0;
 		for(int i = 1; i<=x;i++) {
 			for(int j = 1; j<=x;j++) {
@@ -21,6 +26,24 @@ public class Ch04Ex02_16 {
 				}
 			}
 			System.out.println();
+		}*/
+		
+		char alphabet = 'A';
+		int count = 0;
+		for(int i = 0; i < x; i++) {
+			for(int j = 0; j < x; j++) {
+				int limit = x - i;
+				if(j < limit) {
+					System.out.print(alphabet + " ");
+					alphabet++;
+				}
+				else {
+					System.out.print(count + " ");
+					count++;
+				}
+			}
+			System.out.println();
+			
 		}
 	}
 }

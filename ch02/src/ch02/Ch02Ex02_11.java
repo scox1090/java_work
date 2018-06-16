@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Ch02Ex02_11 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
 
-		// ì‹¤ìˆ˜ ë‘ ê°œë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// ½Ç¼ö µÎ °³¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ë‘ ì‹¤ìˆ˜ë¥¼ ì‹¤ìˆ˜(double)í˜•ìœ¼ë¡œ ë³€ê²½
+		// ÀÔ·Â¹ŞÀº µÎ ½Ç¼ö¸¦ ½Ç¼ö(double)ÇüÀ¸·Î º¯°æ
 		double num1, num2;
 		num1 = Float.parseFloat(input1);
 		num2 = Float.parseFloat(input2);
 
-		// printf()ë¥¼ ì´ìš©í•˜ì—¬ ê³„ì‚°ë° ì¶œë ¥
+		// printf()¸¦ ÀÌ¿ëÇÏ¿© °è»ê¹× Ãâ·Â
 		System.out.printf("%10.2f %10.2f %10.2f", num1, num2, num1 + num2);
 	}
 }

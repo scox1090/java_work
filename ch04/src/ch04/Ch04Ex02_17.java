@@ -12,10 +12,10 @@ public class Ch04Ex02_17 {
 		for(int i=1;i<=x;i++) {
 			for(int j=1;j<=x;j++) {
 				if(i>j) {
-					System.out.print(" ");
+					System.out.print("  ");
 				} else {	
 					n++;
-					System.out.print(n);
+					System.out.print(n%10 + " " );
 				}
 			}
 			System.out.println();

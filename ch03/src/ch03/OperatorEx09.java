@@ -2,10 +2,10 @@ package ch03;
 
 public class OperatorEx09 {
 	public static void main(String[] args) {
-		long a = 1_000_000 * 1_000_000;		//intí˜• * intí˜• = intí˜•
-		long b = 1_000_000 * 1_000_000L;		//intí˜• * longí˜• = longí˜•  
+		long a = 1_000_000 * 1_000_000;		//intÇü * intÇü = intÇü
+		long b = 1_000_000 * 1_000_000L;		//intÇü * longÇü = longÇü  
 
-		System.out.println("a=" + a);				//ë¹„ì •ìƒ ì¶œë ¥
-		System.out.println("b=" + b);				//ì •ìƒ ì¶œë ¥
+		System.out.println("a=" + a);				//ºñÁ¤»ó Ãâ·Â
+		System.out.println("b=" + b);				//Á¤»ó Ãâ·Â
 	}
 }

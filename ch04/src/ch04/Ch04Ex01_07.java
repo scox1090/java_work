@@ -6,11 +6,11 @@ public class Ch04Ex01_07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
-//		ì˜ ëŒ€ë¬¸ì ì…ë ¥(ë“±ê¸‰ì„ ì…ë ¥ë°›ìŒ)
+//		¿µ ´ë¹®ÀÚ ÀÔ·Â(µî±ŞÀ» ÀÔ·Â¹ŞÀ½)
 		
 		char s = input.charAt(0);
 		
-//		ë“±ê¸‰ì— ëŒ€í•œ í‰ê°€ë¥¼ ì¶œë ¥
+//		µî±Ş¿¡ ´ëÇÑ Æò°¡¸¦ Ãâ·Â
 		if( s == 'A')
 			System.out.println("Excellent");
 		else if(s == 'B')

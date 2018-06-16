@@ -2,9 +2,9 @@ package ch03;
 
 public class Exercise3_2 {
 	public static void main(String[] args) {
-		int numOfApples = 120; // ì‚¬ê³¼ì˜ ê°œìˆ˜
-		int sizeOfBucket = 10; // ë°”êµ¬ë‹ˆì˜ í¬ê¸°(ë°”êµ¬ë‹ˆì— ë‹´ì„ ìˆ˜ ìžˆëŠ” ì‚¬ê³¼ì˜ ê°œìˆ˜)
-		int numOfBucket = (numOfApples % sizeOfBucket > 0 ? numOfApples / sizeOfBucket + 1 : numOfApples / sizeOfBucket); // ëª¨ë“  ì‚¬ê³¼ë¥¼ ë‹´ëŠ”ë° í•„ìš”í•œ ë°”êµ¬ë‹ˆì˜ ìˆ˜
-		System.out.println("í•„ìš”í•œ ë°”êµ¬ë‹ˆì˜ ìˆ˜ :"+numOfBucket);
+		int numOfApples = 120; // »ç°úÀÇ °³¼ö
+		int sizeOfBucket = 10; // ¹Ù±¸´ÏÀÇ Å©±â(¹Ù±¸´Ï¿¡ ´ãÀ» ¼ö ÀÖ´Â »ç°úÀÇ °³¼ö)
+		int numOfBucket = (numOfApples % sizeOfBucket > 0 ? numOfApples / sizeOfBucket + 1 : numOfApples / sizeOfBucket); // ¸ðµç »ç°ú¸¦ ´ã´Âµ¥ ÇÊ¿äÇÑ ¹Ù±¸´ÏÀÇ ¼ö
+		System.out.println("ÇÊ¿äÇÑ ¹Ù±¸´ÏÀÇ ¼ö :"+numOfBucket);
 		}
 }

@@ -2,9 +2,9 @@ package ch03;
 
 public class Ch03Ex04_01 {
 	public static void main(String[] args) {
-		// í”„ë¡œê·¸ëž¨ ì‹¤í–‰ ì¤‘ì— 1ë²ˆ ìš°ì¹˜ì˜ aê°’ì´ ê¶ê¸ˆí•  ê²½ìš°
-		// ë°©ë²• 1: print ë©”ì†Œë“œë¥¼ ì´ìš©í•´ ì¶œë ¥í•´ë³¸ë‹¤.
-		// ë°©ë²• 2: ë””ë²„ê¹… ë„êµ¬ë¥¼ ì‚¬ìš©í•œë‹¤.
+		// ÇÁ·Î±×·¥ ½ÇÇà Áß¿¡ 1¹ø ¿ìÄ¡ÀÇ a°ªÀÌ ±Ã±ÝÇÒ °æ¿ì
+		// ¹æ¹ý 1: print ¸Þ¼Òµå¸¦ ÀÌ¿ëÇØ Ãâ·ÂÇØº»´Ù.
+		// ¹æ¹ý 2: µð¹ö±ë µµ±¸¸¦ »ç¿ëÇÑ´Ù.
 
 		int a = 5;
 		a += 10;

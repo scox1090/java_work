@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Ch04Ex01_09 {
 	public static void main(String[] args) {
-//		3ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ëŠ”ë‹¤.
+//		3°³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Ş´Â´Ù.
 		Scanner sc = new Scanner(System.in);
 		String[] input = sc.nextLine().split(" ");
 		int num1 = Integer.parseInt(input[0]);
 		int num2 = Integer.parseInt(input[1]);
 		int num3 = Integer.parseInt(input[2]);
-//		ì„ ìƒë‹˜ì´ í•˜ì‹  ë°©ë²•
+//		¼±»ı´ÔÀÌ ÇÏ½Å ¹æ¹ı
 		int min01 = num1 < num2 ? num1 : num2;
 		int min02 = min01 < num3 ? min01 : num3;
 		
 		System.out.println(min02);
 		
-		/* ë‚´ê°€í•œ ë°©ë²•
+		/* ³»°¡ÇÑ ¹æ¹ı
 		if (num1 < num2 && num1 < num3)
 			System.out.println(num1);
 		if (num2 < num1 && num2 < num3)

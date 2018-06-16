@@ -1,13 +1,13 @@
 package ch03;
 
 public class OperatorEx04 {
-public static void main(String[] args) {
-	int i=-10;			// iëŠ”  -10
-	i = +i;				// iëŠ”  -10  (+ëŠ” ê³±í•˜ê¸° +1 í•œ ê²ƒê³¼ ë™ì¼)
-	System.out.println(i);	// -10 ì¶œë ¥
-	
-	i = -10;				// iëŠ” -10
-	i = -i;				// iëŠ” 10  (-ëŠ” ê³±í•˜ê¸° -1 í•œ ê²ƒê³¼ ë™ì¼)
-	System.out.println(i);	//10 ì¶œë ¥
-}
+	public static void main(String[] args) {
+		int i = -10; // i´Â -10
+		i = +i; // i´Â -10 (+´Â °öÇÏ±â +1 ÇÑ °Í°ú µ¿ÀÏ)
+		System.out.println(i); // -10 Ãâ·Â
+
+		i = -10; // i´Â -10
+		i = -i; // i´Â 10 (-´Â °öÇÏ±â -1 ÇÑ °Í°ú µ¿ÀÏ)
+		System.out.println(i); // 10 Ãâ·Â
+	}
 }

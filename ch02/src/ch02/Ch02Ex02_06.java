@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Ch02Ex02_06 {
 	public static void main(String[] args) {
-		// Scanner ê°ì²´ ìƒì„±(System.inì€ í‚¤ë³´ë“œ)
+		// Scanner °´Ã¼ »ı¼º(System.inÀº Å°º¸µå)
 		Scanner scanner = new Scanner(System.in);
-		// ì‹¤ìˆ˜ 2ê°œë¥¼ ë¬¸ìì—´ë¡œ ì…ë ¥ë°›ê¸°
+		// ½Ç¼ö 2°³¸¦ ¹®ÀÚ¿­·Î ÀÔ·Â¹Ş±â
 		String input1 = scanner.nextLine();
 		String input2 = scanner.nextLine();
 
-		// ì…ë ¥ë°›ì€ ì‹¤ìˆ˜ 2ê°œë¥¼ ì‹¤ìˆ˜(double)í˜•ìœ¼ë¡œ ë³€ê²½í•˜ê¸°
+		// ÀÔ·Â¹ŞÀº ½Ç¼ö 2°³¸¦ ½Ç¼ö(double)ÇüÀ¸·Î º¯°æÇÏ±â
 		double yd = Float.parseFloat(input1);
 		double in = Float.parseFloat(input2);
 
-		// num1ê³¼ num2 ë³€ìˆ˜ë¥¼ ì´ìš©í•˜ì—¬ ê³„ì‚° ë° ì¶œë ¥
+		// num1°ú num2 º¯¼ö¸¦ ÀÌ¿ëÇÏ¿© °è»ê ¹× Ãâ·Â
 		System.out.printf("%4.1fyd = %5.1fcm\n", yd, yd * 91.44);
 		System.out.printf("%4.1fin = %5.1fcm\n", in, in * 2.54);
 	}
